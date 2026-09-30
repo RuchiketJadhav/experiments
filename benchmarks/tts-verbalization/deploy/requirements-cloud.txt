@@ -1,0 +1,10 @@
+# Cloud run: every TTS and every recognizer is an HTTP API, so nothing here
+# does inference locally. torch and transformers are deliberately absent --
+# they are a ~2 GB download that adapters/asr/whisper.py and
+# adapters/asr/wav2vec2.py import lazily and this run never touches. Adding
+# them would triple the boot time and force a larger root volume for code
+# that is not executed.
+numpy>=1.26
+soundfile>=0.12          # reads wav and mp3 via libsndfile; no ffmpeg needed
+requests>=2.31
+PyYAML>=6.0

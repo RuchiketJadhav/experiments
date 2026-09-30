@@ -1,0 +1,1686 @@
+{
+  "categories": {
+    "Abbreviation": {
+      "chatterbox": {
+        "ci95": [
+          0.45,
+          0.75
+        ],
+        "match_rate": 0.6,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.675,
+          0.925
+        ],
+        "match_rate": 0.8,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.75,
+          0.95
+        ],
+        "match_rate": 0.85,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.5278,
+          0.8333
+        ],
+        "match_rate": 0.6944,
+        "n": 36
+      },
+      "parler-tts": {
+        "ci95": [
+          0.425,
+          0.725
+        ],
+        "match_rate": 0.575,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.4359,
+          0.7436
+        ],
+        "match_rate": 0.5897,
+        "n": 39
+      }
+    },
+    "Address": {
+      "chatterbox": {
+        "ci95": [
+          0.075,
+          0.3
+        ],
+        "match_rate": 0.175,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "match_rate": 0.05,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.125,
+          0.375
+        ],
+        "match_rate": 0.25,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.4,
+          0.7
+        ],
+        "match_rate": 0.55,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.1081,
+          0.3784
+        ],
+        "match_rate": 0.2432,
+        "n": 37
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 35
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.075,
+          0.3
+        ],
+        "match_rate": 0.175,
+        "n": 40
+      }
+    },
+    "Biological Classification": {
+      "chatterbox": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.075,
+          0.325
+        ],
+        "match_rate": 0.2,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.3077,
+          0.6154
+        ],
+        "match_rate": 0.4615,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.175,
+          0.475
+        ],
+        "match_rate": 0.325,
+        "n": 40
+      }
+    },
+    "Cardinal": {
+      "chatterbox": {
+        "ci95": [
+          0.275,
+          0.575
+        ],
+        "match_rate": 0.425,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.025,
+          0.25
+        ],
+        "match_rate": 0.125,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.675,
+          0.925
+        ],
+        "match_rate": 0.8,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.6923,
+          0.9231
+        ],
+        "match_rate": 0.8205,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.35,
+          0.65
+        ],
+        "match_rate": 0.5,
+        "n": 40
+      }
+    },
+    "Chemical Formula": {
+      "chatterbox": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.35,
+          0.65
+        ],
+        "match_rate": 0.5,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.325,
+          0.625
+        ],
+        "match_rate": 0.475,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.4474,
+          0.7632
+        ],
+        "match_rate": 0.6053,
+        "n": 38
+      }
+    },
+    "Currency": {
+      "chatterbox": {
+        "ci95": [
+          0.325,
+          0.625
+        ],
+        "match_rate": 0.475,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "match_rate": 0.025,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.525,
+          0.825
+        ],
+        "match_rate": 0.675,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "match_rate": 0.975,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.775,
+          0.975
+        ],
+        "match_rate": 0.875,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      }
+    },
+    "Date": {
+      "chatterbox": {
+        "ci95": [
+          0.1,
+          0.35
+        ],
+        "match_rate": 0.225,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.075,
+          0.3
+        ],
+        "match_rate": 0.175,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.05,
+          0.275
+        ],
+        "match_rate": 0.15,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.025,
+          0.2
+        ],
+        "match_rate": 0.1,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.075,
+          0.325
+        ],
+        "match_rate": 0.2,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 38
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.075,
+          0.3
+        ],
+        "match_rate": 0.175,
+        "n": 40
+      }
+    },
+    "Decimal": {
+      "chatterbox": {
+        "ci95": [
+          0.175,
+          0.475
+        ],
+        "match_rate": 0.325,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.8,
+          0.975
+        ],
+        "match_rate": 0.9,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.35,
+          0.65
+        ],
+        "match_rate": 0.5,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.6923,
+          0.9231
+        ],
+        "match_rate": 0.8205,
+        "n": 39
+      }
+    },
+    "Fractions": {
+      "chatterbox": {
+        "ci95": [
+          0.05,
+          0.275
+        ],
+        "match_rate": 0.15,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "match_rate": 0.025,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "match_rate": 0.025,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.025,
+          0.2
+        ],
+        "match_rate": 0.1,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.025,
+          0.2
+        ],
+        "match_rate": 0.1,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      }
+    },
+    "Geographic Coordinates": {
+      "chatterbox": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.1,
+          0.35
+        ],
+        "match_rate": 0.225,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.375,
+          0.675
+        ],
+        "match_rate": 0.525,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.5128,
+          0.8205
+        ],
+        "match_rate": 0.6667,
+        "n": 39
+      }
+    },
+    "Hashtag or Mention": {
+      "chatterbox": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 39
+      }
+    },
+    "ISBN": {
+      "chatterbox": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.15,
+          0.425
+        ],
+        "match_rate": 0.275,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.05,
+          0.275
+        ],
+        "match_rate": 0.15,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.375,
+          0.675
+        ],
+        "match_rate": 0.525,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.1282,
+          0.3846
+        ],
+        "match_rate": 0.2564,
+        "n": 39
+      }
+    },
+    "Initialism or Acronym": {
+      "chatterbox": {
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "match_rate": 0.975,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.7,
+          0.925
+        ],
+        "match_rate": 0.825,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "match_rate": 0.975,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "match_rate": 1.0,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.7838,
+          0.973
+        ],
+        "match_rate": 0.8919,
+        "n": 37
+      },
+      "parler-tts": {
+        "ci95": [
+          0.05,
+          0.275
+        ],
+        "match_rate": 0.15,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.675,
+          0.925
+        ],
+        "match_rate": 0.8,
+        "n": 40
+      }
+    },
+    "Legal Reference": {
+      "chatterbox": {
+        "ci95": [
+          0.45,
+          0.75
+        ],
+        "match_rate": 0.6,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.125,
+          0.375
+        ],
+        "match_rate": 0.25,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.575,
+          0.875
+        ],
+        "match_rate": 0.725,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.65,
+          0.9
+        ],
+        "match_rate": 0.775,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.4872,
+          0.7949
+        ],
+        "match_rate": 0.641,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.35,
+          0.65
+        ],
+        "match_rate": 0.5,
+        "n": 40
+      }
+    },
+    "License Plate or Serial Numbers": {
+      "chatterbox": {
+        "ci95": [
+          0.65,
+          0.9
+        ],
+        "match_rate": 0.775,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.075,
+          0.3
+        ],
+        "match_rate": 0.175,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.575,
+          0.875
+        ],
+        "match_rate": 0.725,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.4,
+          0.7
+        ],
+        "match_rate": 0.55,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 39
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.4,
+          0.7
+        ],
+        "match_rate": 0.55,
+        "n": 40
+      }
+    },
+    "Mathematical Expression": {
+      "chatterbox": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 39
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.525,
+          0.825
+        ],
+        "match_rate": 0.675,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.55,
+          0.85
+        ],
+        "match_rate": 0.7,
+        "n": 40
+      }
+    },
+    "Musical Notation": {
+      "chatterbox": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.175,
+          0.475
+        ],
+        "match_rate": 0.325,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.225,
+          0.525
+        ],
+        "match_rate": 0.375,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "match_rate": 1.0,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.1,
+          0.35
+        ],
+        "match_rate": 0.225,
+        "n": 40
+      }
+    },
+    "Ordinal": {
+      "chatterbox": {
+        "ci95": [
+          0.775,
+          0.975
+        ],
+        "match_rate": 0.875,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.5405,
+          0.8649
+        ],
+        "match_rate": 0.7027,
+        "n": 37
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.85,
+          1.0
+        ],
+        "match_rate": 0.925,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.8,
+          0.975
+        ],
+        "match_rate": 0.9,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.925,
+          1.0
+        ],
+        "match_rate": 0.975,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.7,
+          0.925
+        ],
+        "match_rate": 0.825,
+        "n": 40
+      }
+    },
+    "Phone Number": {
+      "chatterbox": {
+        "ci95": [
+          0.45,
+          0.75
+        ],
+        "match_rate": 0.6,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "match_rate": 0.025,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.225,
+          0.525
+        ],
+        "match_rate": 0.375,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.275,
+          0.575
+        ],
+        "match_rate": 0.425,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.45,
+          0.75
+        ],
+        "match_rate": 0.6,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.2564,
+          0.5641
+        ],
+        "match_rate": 0.4103,
+        "n": 39
+      }
+    },
+    "Roman Numeral": {
+      "chatterbox": {
+        "ci95": [
+          0.425,
+          0.725
+        ],
+        "match_rate": 0.575,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0513,
+          0.2821
+        ],
+        "match_rate": 0.1538,
+        "n": 39
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.225,
+          0.525
+        ],
+        "match_rate": 0.375,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.775,
+          0.975
+        ],
+        "match_rate": 0.875,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.4,
+          0.7
+        ],
+        "match_rate": 0.55,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 39
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.1538,
+          0.4359
+        ],
+        "match_rate": 0.3077,
+        "n": 39
+      }
+    },
+    "Sports score": {
+      "chatterbox": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.225,
+          0.525
+        ],
+        "match_rate": 0.375,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.7,
+          0.925
+        ],
+        "match_rate": 0.825,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.375,
+          0.675
+        ],
+        "match_rate": 0.525,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.65,
+          0.9
+        ],
+        "match_rate": 0.775,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.8,
+          0.975
+        ],
+        "match_rate": 0.9,
+        "n": 40
+      }
+    },
+    "Stock Ticker": {
+      "chatterbox": {
+        "ci95": [
+          0.7,
+          0.925
+        ],
+        "match_rate": 0.825,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.7179,
+          0.9487
+        ],
+        "match_rate": 0.8462,
+        "n": 39
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.75,
+          0.95
+        ],
+        "match_rate": 0.85,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "match_rate": 1.0,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.6842,
+          0.9211
+        ],
+        "match_rate": 0.8158,
+        "n": 38
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.075
+        ],
+        "match_rate": 0.025,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.8205,
+          1.0
+        ],
+        "match_rate": 0.9231,
+        "n": 39
+      }
+    },
+    "Time": {
+      "chatterbox": {
+        "ci95": [
+          0.175,
+          0.475
+        ],
+        "match_rate": 0.325,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.3,
+          0.6
+        ],
+        "match_rate": 0.45,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.575,
+          0.875
+        ],
+        "match_rate": 0.725,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.4872,
+          0.7949
+        ],
+        "match_rate": 0.641,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.2308,
+          0.5385
+        ],
+        "match_rate": 0.3846,
+        "n": 39
+      }
+    },
+    "URL or Email": {
+      "chatterbox": {
+        "ci95": [
+          0.05,
+          0.275
+        ],
+        "match_rate": 0.15,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.35,
+          0.65
+        ],
+        "match_rate": 0.5,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.275,
+          0.575
+        ],
+        "match_rate": 0.425,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.25,
+          0.55
+        ],
+        "match_rate": 0.4,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 39
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.0541,
+          0.2973
+        ],
+        "match_rate": 0.1622,
+        "n": 37
+      }
+    },
+    "Unit": {
+      "chatterbox": {
+        "ci95": [
+          0.275,
+          0.575
+        ],
+        "match_rate": 0.425,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.225,
+          0.525
+        ],
+        "match_rate": 0.375,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.375,
+          0.675
+        ],
+        "match_rate": 0.525,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.475,
+          0.775
+        ],
+        "match_rate": 0.625,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.5,
+          0.8
+        ],
+        "match_rate": 0.65,
+        "n": 40
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.5641,
+          0.8462
+        ],
+        "match_rate": 0.7179,
+        "n": 39
+      }
+    },
+    "Vehicle or Product Code": {
+      "chatterbox": {
+        "ci95": [
+          0.775,
+          0.975
+        ],
+        "match_rate": 0.875,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.15,
+          0.425
+        ],
+        "match_rate": 0.275,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.65,
+          0.9
+        ],
+        "match_rate": 0.775,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.875,
+          1.0
+        ],
+        "match_rate": 0.95,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.5641,
+          0.8462
+        ],
+        "match_rate": 0.7179,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.359,
+          0.6667
+        ],
+        "match_rate": 0.5128,
+        "n": 39
+      }
+    },
+    "Version Numbers": {
+      "chatterbox": {
+        "ci95": [
+          0.075,
+          0.325
+        ],
+        "match_rate": 0.2,
+        "n": 40
+      },
+      "chatterbox-multilingual": {
+        "ci95": [
+          0.075,
+          0.325
+        ],
+        "match_rate": 0.2,
+        "n": 40
+      },
+      "chatterbox-turbo": {
+        "ci95": [
+          0.15,
+          0.425
+        ],
+        "match_rate": 0.275,
+        "n": 40
+      },
+      "kokoro-82m": {
+        "ci95": [
+          0.15,
+          0.45
+        ],
+        "match_rate": 0.3,
+        "n": 40
+      },
+      "orpheus-3b": {
+        "ci95": [
+          0.1282,
+          0.4103
+        ],
+        "match_rate": 0.2821,
+        "n": 39
+      },
+      "parler-tts": {
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "match_rate": 0.0,
+        "n": 40
+      },
+      "qwen3-tts": {
+        "ci95": [
+          0.1026,
+          0.359
+        ],
+        "match_rate": 0.2308,
+        "n": 39
+      }
+    }
+  },
+  "common_items": 1030,
+  "excluded_reasons": {
+    "asr_error": 47,
+    "screened_transcript": 4
+  },
+  "recognizer": "openai-whisper-1",
+  "records": 7560,
+  "systems": {
+    "chatterbox": {
+      "attempted": 1080,
+      "ci95": [
+        0.413,
+        0.4694
+      ],
+      "common_match_rate": 0.4398,
+      "excluded": {},
+      "match_rate": 0.4407,
+      "mean_wer": 0.1263,
+      "revision": "chatterbox@1b8422bc",
+      "scored": 1080,
+      "sentence_match_rate": 0.3972
+    },
+    "chatterbox-multilingual": {
+      "attempted": 1080,
+      "ci95": [
+        0.2263,
+        0.2793
+      ],
+      "common_match_rate": 0.2524,
+      "excluded": {
+        "asr_error": 2,
+        "screened_transcript": 4
+      },
+      "match_rate": 0.2533,
+      "mean_wer": 0.2075,
+      "revision": "chatterbox-multilingual@9cfba4c2",
+      "scored": 1074,
+      "sentence_match_rate": 0.2188
+    },
+    "chatterbox-turbo": {
+      "attempted": 1080,
+      "ci95": [
+        0.463,
+        0.5213
+      ],
+      "common_match_rate": 0.4893,
+      "excluded": {},
+      "match_rate": 0.4926,
+      "mean_wer": 0.1064,
+      "revision": "chatterbox-turbo@95c87b88",
+      "scored": 1080,
+      "sentence_match_rate": 0.4565
+    },
+    "kokoro-82m": {
+      "attempted": 1080,
+      "ci95": [
+        0.5769,
+        0.6389
+      ],
+      "common_match_rate": 0.6049,
+      "excluded": {},
+      "match_rate": 0.6083,
+      "mean_wer": 0.0705,
+      "revision": "kokoro-82m@f559560e",
+      "scored": 1080,
+      "sentence_match_rate": 0.5852
+    },
+    "orpheus-3b": {
+      "attempted": 1080,
+      "ci95": [
+        0.5132,
+        0.5725
+      ],
+      "common_match_rate": 0.5456,
+      "excluded": {
+        "asr_error": 18
+      },
+      "match_rate": 0.5433,
+      "mean_wer": 0.091,
+      "revision": "orpheus-3b-0.1-ft@79f2a473",
+      "scored": 1062,
+      "sentence_match_rate": 0.5028
+    },
+    "parler-tts": {
+      "attempted": 1080,
+      "ci95": [
+        0.0187,
+        0.0383
+      ],
+      "common_match_rate": 0.0262,
+      "excluded": {
+        "asr_error": 10
+      },
+      "match_rate": 0.028,
+      "mean_wer": 0.3605,
+      "revision": "parler-tts@bf38249a+desc-clear",
+      "scored": 1070,
+      "sentence_match_rate": 0.0234
+    },
+    "qwen3-tts": {
+      "attempted": 1080,
+      "ci95": [
+        0.4628,
+        0.5212
+      ],
+      "common_match_rate": 0.4922,
+      "excluded": {
+        "asr_error": 17
+      },
+      "match_rate": 0.4929,
+      "mean_wer": 0.1239,
+      "revision": "qwen3-tts@d490a561",
+      "scored": 1063,
+      "sentence_match_rate": 0.4412
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# Secrets. Only .env.example is tracked.
+.env
+*.env
+!.env.example
+secrets.env
+
+# Run output. Studies publish a curated results/ directory; raw runs stay local.
+runs/
+*.log
+nohup.out
+
+# Audio is never committed.
+*.wav
+*.mp3
+*.flac
+
+# Third-party datasets are downloaded at run time, never committed.
+benchmarks/*/data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*.bak
+*.part

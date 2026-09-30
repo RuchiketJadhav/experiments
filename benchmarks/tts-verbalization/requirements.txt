@@ -1,0 +1,19 @@
+# Pinned to the versions this study was verified with on 2026-09-30,
+# Python 3.12.6. Lower bounds are given as a floor, not a guess: these are
+# the versions `verify.py` and the test suite actually ran against.
+#
+# Tier 1 (verify.py) needs only numpy, PyYAML and soundfile.
+# Tiers 2 and 3 add requests for the hosted model and recognizer APIs.
+#
+# torch and transformers are deliberately ABSENT. adapters/asr/whisper.py and
+# adapters/asr/wav2vec2.py import them lazily for local recognition, which no
+# tier here uses; every model and recognizer in this study is an HTTP API.
+# Installing them would add ~2 GB for code that never runs.
+
+numpy==2.5.2
+soundfile==0.14.0        # reads wav and mp3 via libsndfile; no ffmpeg needed
+requests==2.34.2
+PyYAML==6.0.3
+
+# Optional: the local Streamlit viewer (app.py, pages/). Not needed for any tier.
+# streamlit==1.63.0

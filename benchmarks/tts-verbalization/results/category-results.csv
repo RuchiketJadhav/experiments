@@ -1,0 +1,379 @@
+recognizer,category,model,n_scored,match_rate,ci95_low,ci95_high
+openai-whisper-1,Abbreviation,chatterbox,40,0.6000,0.4500,0.7500
+openai-whisper-1,Abbreviation,chatterbox-multilingual,40,0.6250,0.4750,0.7750
+openai-whisper-1,Abbreviation,chatterbox-turbo,40,0.8000,0.6750,0.9250
+openai-whisper-1,Abbreviation,kokoro-82m,40,0.8500,0.7500,0.9500
+openai-whisper-1,Abbreviation,orpheus-3b,36,0.6944,0.5278,0.8333
+openai-whisper-1,Abbreviation,parler-tts,40,0.5750,0.4250,0.7250
+openai-whisper-1,Abbreviation,qwen3-tts,39,0.5897,0.4359,0.7436
+openai-whisper-1,Address,chatterbox,40,0.1750,0.0750,0.3000
+openai-whisper-1,Address,chatterbox-multilingual,40,0.0500,0.0000,0.1250
+openai-whisper-1,Address,chatterbox-turbo,40,0.2500,0.1250,0.3750
+openai-whisper-1,Address,kokoro-82m,40,0.5500,0.4000,0.7000
+openai-whisper-1,Address,orpheus-3b,37,0.2432,0.1081,0.3784
+openai-whisper-1,Address,parler-tts,35,0.0000,0.0000,0.0000
+openai-whisper-1,Address,qwen3-tts,40,0.1750,0.0750,0.3000
+openai-whisper-1,Biological Classification,chatterbox,40,0.4500,0.3000,0.6000
+openai-whisper-1,Biological Classification,chatterbox-multilingual,40,0.2000,0.0750,0.3250
+openai-whisper-1,Biological Classification,chatterbox-turbo,40,0.4000,0.2500,0.5500
+openai-whisper-1,Biological Classification,kokoro-82m,40,0.4500,0.3000,0.6000
+openai-whisper-1,Biological Classification,orpheus-3b,39,0.4615,0.3077,0.6154
+openai-whisper-1,Biological Classification,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Biological Classification,qwen3-tts,40,0.3250,0.1750,0.4750
+openai-whisper-1,Cardinal,chatterbox,40,0.4250,0.2750,0.5750
+openai-whisper-1,Cardinal,chatterbox-multilingual,40,0.1250,0.0250,0.2500
+openai-whisper-1,Cardinal,chatterbox-turbo,40,0.6250,0.4750,0.7750
+openai-whisper-1,Cardinal,kokoro-82m,40,0.8000,0.6750,0.9250
+openai-whisper-1,Cardinal,orpheus-3b,39,0.8205,0.6923,0.9231
+openai-whisper-1,Cardinal,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Cardinal,qwen3-tts,40,0.5000,0.3500,0.6500
+openai-whisper-1,Chemical Formula,chatterbox,40,0.6250,0.4750,0.7750
+openai-whisper-1,Chemical Formula,chatterbox-multilingual,40,0.5000,0.3500,0.6500
+openai-whisper-1,Chemical Formula,chatterbox-turbo,40,0.4500,0.3000,0.6000
+openai-whisper-1,Chemical Formula,kokoro-82m,40,0.6250,0.4750,0.7750
+openai-whisper-1,Chemical Formula,orpheus-3b,40,0.4750,0.3250,0.6250
+openai-whisper-1,Chemical Formula,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Chemical Formula,qwen3-tts,38,0.6053,0.4474,0.7632
+openai-whisper-1,Currency,chatterbox,40,0.4750,0.3250,0.6250
+openai-whisper-1,Currency,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+openai-whisper-1,Currency,chatterbox-turbo,40,0.6750,0.5250,0.8250
+openai-whisper-1,Currency,kokoro-82m,40,0.9750,0.9250,1.0000
+openai-whisper-1,Currency,orpheus-3b,40,0.8750,0.7750,0.9750
+openai-whisper-1,Currency,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Currency,qwen3-tts,40,0.6250,0.4750,0.7750
+openai-whisper-1,Date,chatterbox,40,0.2250,0.1000,0.3500
+openai-whisper-1,Date,chatterbox-multilingual,40,0.1750,0.0750,0.3000
+openai-whisper-1,Date,chatterbox-turbo,40,0.1500,0.0500,0.2750
+openai-whisper-1,Date,kokoro-82m,40,0.1000,0.0250,0.2000
+openai-whisper-1,Date,orpheus-3b,40,0.2000,0.0750,0.3250
+openai-whisper-1,Date,parler-tts,38,0.0000,0.0000,0.0000
+openai-whisper-1,Date,qwen3-tts,40,0.1750,0.0750,0.3000
+openai-whisper-1,Decimal,chatterbox,40,0.3250,0.1750,0.4750
+openai-whisper-1,Decimal,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+openai-whisper-1,Decimal,chatterbox-turbo,40,0.6250,0.4750,0.7750
+openai-whisper-1,Decimal,kokoro-82m,40,0.9000,0.8000,0.9750
+openai-whisper-1,Decimal,orpheus-3b,40,0.5000,0.3500,0.6500
+openai-whisper-1,Decimal,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Decimal,qwen3-tts,39,0.8205,0.6923,0.9231
+openai-whisper-1,Fractions,chatterbox,40,0.1500,0.0500,0.2750
+openai-whisper-1,Fractions,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+openai-whisper-1,Fractions,chatterbox-turbo,40,0.0250,0.0000,0.0750
+openai-whisper-1,Fractions,kokoro-82m,40,0.1000,0.0250,0.2000
+openai-whisper-1,Fractions,orpheus-3b,40,0.1000,0.0250,0.2000
+openai-whisper-1,Fractions,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Fractions,qwen3-tts,40,0.4000,0.2500,0.5500
+openai-whisper-1,Geographic Coordinates,chatterbox,40,0.0000,0.0000,0.0000
+openai-whisper-1,Geographic Coordinates,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+openai-whisper-1,Geographic Coordinates,chatterbox-turbo,40,0.2250,0.1000,0.3500
+openai-whisper-1,Geographic Coordinates,kokoro-82m,40,0.0000,0.0000,0.0000
+openai-whisper-1,Geographic Coordinates,orpheus-3b,40,0.5250,0.3750,0.6750
+openai-whisper-1,Geographic Coordinates,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Geographic Coordinates,qwen3-tts,39,0.6667,0.5128,0.8205
+openai-whisper-1,Hashtag or Mention,chatterbox,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,chatterbox-turbo,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,kokoro-82m,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,orpheus-3b,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Hashtag or Mention,qwen3-tts,39,0.0000,0.0000,0.0000
+openai-whisper-1,ISBN,chatterbox,40,0.4000,0.2500,0.5500
+openai-whisper-1,ISBN,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+openai-whisper-1,ISBN,chatterbox-turbo,40,0.2750,0.1500,0.4250
+openai-whisper-1,ISBN,kokoro-82m,40,0.1500,0.0500,0.2750
+openai-whisper-1,ISBN,orpheus-3b,40,0.5250,0.3750,0.6750
+openai-whisper-1,ISBN,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,ISBN,qwen3-tts,39,0.2564,0.1282,0.3846
+openai-whisper-1,Initialism or Acronym,chatterbox,40,0.9750,0.9250,1.0000
+openai-whisper-1,Initialism or Acronym,chatterbox-multilingual,40,0.8250,0.7000,0.9250
+openai-whisper-1,Initialism or Acronym,chatterbox-turbo,40,0.9750,0.9250,1.0000
+openai-whisper-1,Initialism or Acronym,kokoro-82m,40,1.0000,1.0000,1.0000
+openai-whisper-1,Initialism or Acronym,orpheus-3b,37,0.8919,0.7838,0.9730
+openai-whisper-1,Initialism or Acronym,parler-tts,40,0.1500,0.0500,0.2750
+openai-whisper-1,Initialism or Acronym,qwen3-tts,40,0.8000,0.6750,0.9250
+openai-whisper-1,Legal Reference,chatterbox,40,0.6000,0.4500,0.7500
+openai-whisper-1,Legal Reference,chatterbox-multilingual,40,0.2500,0.1250,0.3750
+openai-whisper-1,Legal Reference,chatterbox-turbo,40,0.7250,0.5750,0.8750
+openai-whisper-1,Legal Reference,kokoro-82m,40,0.7750,0.6500,0.9000
+openai-whisper-1,Legal Reference,orpheus-3b,39,0.6410,0.4872,0.7949
+openai-whisper-1,Legal Reference,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Legal Reference,qwen3-tts,40,0.5000,0.3500,0.6500
+openai-whisper-1,License Plate or Serial Numbers,chatterbox,40,0.7750,0.6500,0.9000
+openai-whisper-1,License Plate or Serial Numbers,chatterbox-multilingual,40,0.1750,0.0750,0.3000
+openai-whisper-1,License Plate or Serial Numbers,chatterbox-turbo,40,0.4500,0.3000,0.6000
+openai-whisper-1,License Plate or Serial Numbers,kokoro-82m,40,0.7250,0.5750,0.8750
+openai-whisper-1,License Plate or Serial Numbers,orpheus-3b,40,0.5500,0.4000,0.7000
+openai-whisper-1,License Plate or Serial Numbers,parler-tts,39,0.0000,0.0000,0.0000
+openai-whisper-1,License Plate or Serial Numbers,qwen3-tts,40,0.5500,0.4000,0.7000
+openai-whisper-1,Mathematical Expression,chatterbox,40,0.0000,0.0000,0.0000
+openai-whisper-1,Mathematical Expression,chatterbox-multilingual,39,0.0000,0.0000,0.0000
+openai-whisper-1,Mathematical Expression,chatterbox-turbo,40,0.4000,0.2500,0.5500
+openai-whisper-1,Mathematical Expression,kokoro-82m,40,0.6750,0.5250,0.8250
+openai-whisper-1,Mathematical Expression,orpheus-3b,40,0.4000,0.2500,0.5500
+openai-whisper-1,Mathematical Expression,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Mathematical Expression,qwen3-tts,40,0.7000,0.5500,0.8500
+openai-whisper-1,Musical Notation,chatterbox,40,0.4000,0.2500,0.5500
+openai-whisper-1,Musical Notation,chatterbox-multilingual,40,0.3250,0.1750,0.4750
+openai-whisper-1,Musical Notation,chatterbox-turbo,40,0.3750,0.2250,0.5250
+openai-whisper-1,Musical Notation,kokoro-82m,40,1.0000,1.0000,1.0000
+openai-whisper-1,Musical Notation,orpheus-3b,40,0.4000,0.2500,0.5500
+openai-whisper-1,Musical Notation,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Musical Notation,qwen3-tts,40,0.2250,0.1000,0.3500
+openai-whisper-1,Ordinal,chatterbox,40,0.8750,0.7750,0.9750
+openai-whisper-1,Ordinal,chatterbox-multilingual,37,0.7027,0.5405,0.8649
+openai-whisper-1,Ordinal,chatterbox-turbo,40,0.9250,0.8500,1.0000
+openai-whisper-1,Ordinal,kokoro-82m,40,0.9000,0.8000,0.9750
+openai-whisper-1,Ordinal,orpheus-3b,40,0.9750,0.9250,1.0000
+openai-whisper-1,Ordinal,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Ordinal,qwen3-tts,40,0.8250,0.7000,0.9250
+openai-whisper-1,Phone Number,chatterbox,40,0.6000,0.4500,0.7500
+openai-whisper-1,Phone Number,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+openai-whisper-1,Phone Number,chatterbox-turbo,40,0.3750,0.2250,0.5250
+openai-whisper-1,Phone Number,kokoro-82m,40,0.4250,0.2750,0.5750
+openai-whisper-1,Phone Number,orpheus-3b,40,0.6000,0.4500,0.7500
+openai-whisper-1,Phone Number,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Phone Number,qwen3-tts,39,0.4103,0.2564,0.5641
+openai-whisper-1,Roman Numeral,chatterbox,40,0.5750,0.4250,0.7250
+openai-whisper-1,Roman Numeral,chatterbox-multilingual,39,0.1538,0.0513,0.2821
+openai-whisper-1,Roman Numeral,chatterbox-turbo,40,0.3750,0.2250,0.5250
+openai-whisper-1,Roman Numeral,kokoro-82m,40,0.8750,0.7750,0.9750
+openai-whisper-1,Roman Numeral,orpheus-3b,40,0.5500,0.4000,0.7000
+openai-whisper-1,Roman Numeral,parler-tts,39,0.0000,0.0000,0.0000
+openai-whisper-1,Roman Numeral,qwen3-tts,39,0.3077,0.1538,0.4359
+openai-whisper-1,Sports score,chatterbox,40,0.4500,0.3000,0.6000
+openai-whisper-1,Sports score,chatterbox-multilingual,40,0.3750,0.2250,0.5250
+openai-whisper-1,Sports score,chatterbox-turbo,40,0.8250,0.7000,0.9250
+openai-whisper-1,Sports score,kokoro-82m,40,0.5250,0.3750,0.6750
+openai-whisper-1,Sports score,orpheus-3b,40,0.7750,0.6500,0.9000
+openai-whisper-1,Sports score,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Sports score,qwen3-tts,40,0.9000,0.8000,0.9750
+openai-whisper-1,Stock Ticker,chatterbox,40,0.8250,0.7000,0.9250
+openai-whisper-1,Stock Ticker,chatterbox-multilingual,39,0.8462,0.7179,0.9487
+openai-whisper-1,Stock Ticker,chatterbox-turbo,40,0.8500,0.7500,0.9500
+openai-whisper-1,Stock Ticker,kokoro-82m,40,1.0000,1.0000,1.0000
+openai-whisper-1,Stock Ticker,orpheus-3b,38,0.8158,0.6842,0.9211
+openai-whisper-1,Stock Ticker,parler-tts,40,0.0250,0.0000,0.0750
+openai-whisper-1,Stock Ticker,qwen3-tts,39,0.9231,0.8205,1.0000
+openai-whisper-1,Time,chatterbox,40,0.3250,0.1750,0.4750
+openai-whisper-1,Time,chatterbox-multilingual,40,0.6250,0.4750,0.7750
+openai-whisper-1,Time,chatterbox-turbo,40,0.4500,0.3000,0.6000
+openai-whisper-1,Time,kokoro-82m,40,0.7250,0.5750,0.8750
+openai-whisper-1,Time,orpheus-3b,39,0.6410,0.4872,0.7949
+openai-whisper-1,Time,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Time,qwen3-tts,39,0.3846,0.2308,0.5385
+openai-whisper-1,URL or Email,chatterbox,40,0.1500,0.0500,0.2750
+openai-whisper-1,URL or Email,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+openai-whisper-1,URL or Email,chatterbox-turbo,40,0.5000,0.3500,0.6500
+openai-whisper-1,URL or Email,kokoro-82m,40,0.4250,0.2750,0.5750
+openai-whisper-1,URL or Email,orpheus-3b,40,0.4000,0.2500,0.5500
+openai-whisper-1,URL or Email,parler-tts,39,0.0000,0.0000,0.0000
+openai-whisper-1,URL or Email,qwen3-tts,37,0.1622,0.0541,0.2973
+openai-whisper-1,Unit,chatterbox,40,0.4250,0.2750,0.5750
+openai-whisper-1,Unit,chatterbox-multilingual,40,0.3750,0.2250,0.5250
+openai-whisper-1,Unit,chatterbox-turbo,40,0.5250,0.3750,0.6750
+openai-whisper-1,Unit,kokoro-82m,40,0.6250,0.4750,0.7750
+openai-whisper-1,Unit,orpheus-3b,40,0.6500,0.5000,0.8000
+openai-whisper-1,Unit,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Unit,qwen3-tts,39,0.7179,0.5641,0.8462
+openai-whisper-1,Vehicle or Product Code,chatterbox,40,0.8750,0.7750,0.9750
+openai-whisper-1,Vehicle or Product Code,chatterbox-multilingual,40,0.2750,0.1500,0.4250
+openai-whisper-1,Vehicle or Product Code,chatterbox-turbo,40,0.7750,0.6500,0.9000
+openai-whisper-1,Vehicle or Product Code,kokoro-82m,40,0.9500,0.8750,1.0000
+openai-whisper-1,Vehicle or Product Code,orpheus-3b,39,0.7179,0.5641,0.8462
+openai-whisper-1,Vehicle or Product Code,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Vehicle or Product Code,qwen3-tts,39,0.5128,0.3590,0.6667
+openai-whisper-1,Version Numbers,chatterbox,40,0.2000,0.0750,0.3250
+openai-whisper-1,Version Numbers,chatterbox-multilingual,40,0.2000,0.0750,0.3250
+openai-whisper-1,Version Numbers,chatterbox-turbo,40,0.2750,0.1500,0.4250
+openai-whisper-1,Version Numbers,kokoro-82m,40,0.3000,0.1500,0.4500
+openai-whisper-1,Version Numbers,orpheus-3b,39,0.2821,0.1282,0.4103
+openai-whisper-1,Version Numbers,parler-tts,40,0.0000,0.0000,0.0000
+openai-whisper-1,Version Numbers,qwen3-tts,39,0.2308,0.1026,0.3590
+deepgram-nova-3,Abbreviation,chatterbox,40,0.6500,0.5000,0.8000
+deepgram-nova-3,Abbreviation,chatterbox-multilingual,40,0.5750,0.4250,0.7250
+deepgram-nova-3,Abbreviation,chatterbox-turbo,40,0.7500,0.6000,0.8750
+deepgram-nova-3,Abbreviation,kokoro-82m,40,0.7500,0.6000,0.8750
+deepgram-nova-3,Abbreviation,orpheus-3b,40,0.7500,0.6000,0.8750
+deepgram-nova-3,Abbreviation,parler-tts,39,0.5641,0.4103,0.7179
+deepgram-nova-3,Abbreviation,qwen3-tts,40,0.6000,0.4500,0.7500
+deepgram-nova-3,Address,chatterbox,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Address,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+deepgram-nova-3,Address,chatterbox-turbo,40,0.2000,0.0750,0.3250
+deepgram-nova-3,Address,kokoro-82m,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Address,orpheus-3b,40,0.3250,0.1750,0.4750
+deepgram-nova-3,Address,parler-tts,38,0.0000,0.0000,0.0000
+deepgram-nova-3,Address,qwen3-tts,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Biological Classification,chatterbox,40,0.4500,0.3000,0.6000
+deepgram-nova-3,Biological Classification,chatterbox-multilingual,40,0.2250,0.1000,0.3500
+deepgram-nova-3,Biological Classification,chatterbox-turbo,40,0.4000,0.2500,0.5500
+deepgram-nova-3,Biological Classification,kokoro-82m,40,0.4500,0.3000,0.6000
+deepgram-nova-3,Biological Classification,orpheus-3b,40,0.4500,0.3000,0.6000
+deepgram-nova-3,Biological Classification,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Biological Classification,qwen3-tts,40,0.3000,0.1500,0.4500
+deepgram-nova-3,Cardinal,chatterbox,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Cardinal,chatterbox-multilingual,40,0.1000,0.0250,0.2000
+deepgram-nova-3,Cardinal,chatterbox-turbo,40,0.4250,0.2750,0.5750
+deepgram-nova-3,Cardinal,kokoro-82m,40,1.0000,1.0000,1.0000
+deepgram-nova-3,Cardinal,orpheus-3b,40,0.4000,0.2500,0.5500
+deepgram-nova-3,Cardinal,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Cardinal,qwen3-tts,40,0.4000,0.2500,0.5500
+deepgram-nova-3,Chemical Formula,chatterbox,40,0.4750,0.3250,0.6250
+deepgram-nova-3,Chemical Formula,chatterbox-multilingual,40,0.4250,0.2750,0.5750
+deepgram-nova-3,Chemical Formula,chatterbox-turbo,40,0.4250,0.2750,0.5750
+deepgram-nova-3,Chemical Formula,kokoro-82m,40,0.5750,0.4250,0.7250
+deepgram-nova-3,Chemical Formula,orpheus-3b,40,0.6000,0.4500,0.7500
+deepgram-nova-3,Chemical Formula,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Chemical Formula,qwen3-tts,40,0.6500,0.5000,0.8000
+deepgram-nova-3,Currency,chatterbox,40,0.1250,0.0250,0.2500
+deepgram-nova-3,Currency,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+deepgram-nova-3,Currency,chatterbox-turbo,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Currency,kokoro-82m,40,0.9750,0.9250,1.0000
+deepgram-nova-3,Currency,orpheus-3b,40,0.5750,0.4250,0.7250
+deepgram-nova-3,Currency,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Currency,qwen3-tts,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Date,chatterbox,40,0.2500,0.1250,0.3750
+deepgram-nova-3,Date,chatterbox-multilingual,40,0.2500,0.1250,0.3750
+deepgram-nova-3,Date,chatterbox-turbo,40,0.2750,0.1500,0.4250
+deepgram-nova-3,Date,kokoro-82m,40,0.2750,0.1500,0.4250
+deepgram-nova-3,Date,orpheus-3b,39,0.2821,0.1282,0.4103
+deepgram-nova-3,Date,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Date,qwen3-tts,40,0.0750,0.0000,0.1750
+deepgram-nova-3,Decimal,chatterbox,40,0.2500,0.1250,0.3750
+deepgram-nova-3,Decimal,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Decimal,chatterbox-turbo,40,0.5750,0.4250,0.7250
+deepgram-nova-3,Decimal,kokoro-82m,40,0.9750,0.9250,1.0000
+deepgram-nova-3,Decimal,orpheus-3b,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Decimal,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Decimal,qwen3-tts,40,0.8500,0.7500,0.9500
+deepgram-nova-3,Fractions,chatterbox,40,0.0750,0.0000,0.1750
+deepgram-nova-3,Fractions,chatterbox-multilingual,40,0.0250,0.0000,0.0750
+deepgram-nova-3,Fractions,chatterbox-turbo,40,0.0500,0.0000,0.1250
+deepgram-nova-3,Fractions,kokoro-82m,40,0.0750,0.0000,0.1750
+deepgram-nova-3,Fractions,orpheus-3b,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Fractions,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Fractions,qwen3-tts,40,0.3750,0.2250,0.5250
+deepgram-nova-3,Geographic Coordinates,chatterbox,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,chatterbox-turbo,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,kokoro-82m,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,orpheus-3b,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,parler-tts,38,0.0000,0.0000,0.0000
+deepgram-nova-3,Geographic Coordinates,qwen3-tts,40,0.2250,0.1000,0.3500
+deepgram-nova-3,Hashtag or Mention,chatterbox,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,chatterbox-multilingual,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,chatterbox-turbo,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,kokoro-82m,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,orpheus-3b,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Hashtag or Mention,qwen3-tts,39,0.0000,0.0000,0.0000
+deepgram-nova-3,ISBN,chatterbox,40,0.4000,0.2500,0.5500
+deepgram-nova-3,ISBN,chatterbox-multilingual,40,0.0500,0.0000,0.1250
+deepgram-nova-3,ISBN,chatterbox-turbo,40,0.2000,0.0750,0.3250
+deepgram-nova-3,ISBN,kokoro-82m,40,0.7500,0.6000,0.8750
+deepgram-nova-3,ISBN,orpheus-3b,40,0.4000,0.2500,0.5500
+deepgram-nova-3,ISBN,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,ISBN,qwen3-tts,40,0.2500,0.1250,0.3750
+deepgram-nova-3,Initialism or Acronym,chatterbox,40,1.0000,1.0000,1.0000
+deepgram-nova-3,Initialism or Acronym,chatterbox-multilingual,40,0.8500,0.7500,0.9500
+deepgram-nova-3,Initialism or Acronym,chatterbox-turbo,40,0.9750,0.9250,1.0000
+deepgram-nova-3,Initialism or Acronym,kokoro-82m,40,1.0000,1.0000,1.0000
+deepgram-nova-3,Initialism or Acronym,orpheus-3b,40,0.9250,0.8500,1.0000
+deepgram-nova-3,Initialism or Acronym,parler-tts,40,0.1000,0.0250,0.2000
+deepgram-nova-3,Initialism or Acronym,qwen3-tts,40,0.8000,0.6750,0.9250
+deepgram-nova-3,Legal Reference,chatterbox,40,0.5500,0.4000,0.7000
+deepgram-nova-3,Legal Reference,chatterbox-multilingual,40,0.2500,0.1250,0.3750
+deepgram-nova-3,Legal Reference,chatterbox-turbo,40,0.5500,0.4000,0.7000
+deepgram-nova-3,Legal Reference,kokoro-82m,40,0.8250,0.7000,0.9250
+deepgram-nova-3,Legal Reference,orpheus-3b,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Legal Reference,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Legal Reference,qwen3-tts,40,0.5000,0.3500,0.6500
+deepgram-nova-3,License Plate or Serial Numbers,chatterbox,40,0.8000,0.6750,0.9250
+deepgram-nova-3,License Plate or Serial Numbers,chatterbox-multilingual,40,0.1250,0.0250,0.2500
+deepgram-nova-3,License Plate or Serial Numbers,chatterbox-turbo,40,0.4500,0.3000,0.6000
+deepgram-nova-3,License Plate or Serial Numbers,kokoro-82m,40,0.6250,0.4750,0.7750
+deepgram-nova-3,License Plate or Serial Numbers,orpheus-3b,40,0.4500,0.3000,0.6000
+deepgram-nova-3,License Plate or Serial Numbers,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,License Plate or Serial Numbers,qwen3-tts,40,0.5250,0.3750,0.6750
+deepgram-nova-3,Mathematical Expression,chatterbox,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Mathematical Expression,chatterbox-multilingual,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Mathematical Expression,chatterbox-turbo,40,0.4750,0.3250,0.6250
+deepgram-nova-3,Mathematical Expression,kokoro-82m,40,0.6500,0.5000,0.8000
+deepgram-nova-3,Mathematical Expression,orpheus-3b,40,0.3750,0.2250,0.5250
+deepgram-nova-3,Mathematical Expression,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Mathematical Expression,qwen3-tts,40,0.5500,0.4000,0.7000
+deepgram-nova-3,Musical Notation,chatterbox,40,0.4250,0.2750,0.5750
+deepgram-nova-3,Musical Notation,chatterbox-multilingual,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Musical Notation,chatterbox-turbo,40,0.4000,0.2500,0.5500
+deepgram-nova-3,Musical Notation,kokoro-82m,40,0.9500,0.8750,1.0000
+deepgram-nova-3,Musical Notation,orpheus-3b,40,0.3000,0.1500,0.4500
+deepgram-nova-3,Musical Notation,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Musical Notation,qwen3-tts,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Ordinal,chatterbox,40,0.6250,0.4750,0.7750
+deepgram-nova-3,Ordinal,chatterbox-multilingual,38,0.6053,0.4474,0.7632
+deepgram-nova-3,Ordinal,chatterbox-turbo,40,0.8250,0.7000,0.9250
+deepgram-nova-3,Ordinal,kokoro-82m,40,0.9750,0.9250,1.0000
+deepgram-nova-3,Ordinal,orpheus-3b,40,0.9000,0.8000,0.9750
+deepgram-nova-3,Ordinal,parler-tts,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Ordinal,qwen3-tts,40,0.7750,0.6500,0.9000
+deepgram-nova-3,Phone Number,chatterbox,40,0.4500,0.3000,0.6000
+deepgram-nova-3,Phone Number,chatterbox-multilingual,40,0.1500,0.0500,0.2750
+deepgram-nova-3,Phone Number,chatterbox-turbo,40,0.3500,0.2000,0.5000
+deepgram-nova-3,Phone Number,kokoro-82m,40,0.6750,0.5250,0.8250
+deepgram-nova-3,Phone Number,orpheus-3b,40,0.5250,0.3750,0.6750
+deepgram-nova-3,Phone Number,parler-tts,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Phone Number,qwen3-tts,40,0.3500,0.2000,0.5000
+deepgram-nova-3,Roman Numeral,chatterbox,40,0.5000,0.3500,0.6500
+deepgram-nova-3,Roman Numeral,chatterbox-multilingual,39,0.1538,0.0513,0.2821
+deepgram-nova-3,Roman Numeral,chatterbox-turbo,40,0.3250,0.1750,0.4750
+deepgram-nova-3,Roman Numeral,kokoro-82m,40,0.5750,0.4250,0.7250
+deepgram-nova-3,Roman Numeral,orpheus-3b,40,0.4750,0.3250,0.6250
+deepgram-nova-3,Roman Numeral,parler-tts,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Roman Numeral,qwen3-tts,40,0.2000,0.0750,0.3250
+deepgram-nova-3,Sports score,chatterbox,40,0.1250,0.0250,0.2500
+deepgram-nova-3,Sports score,chatterbox-multilingual,40,0.1500,0.0500,0.2750
+deepgram-nova-3,Sports score,chatterbox-turbo,40,0.6000,0.4500,0.7500
+deepgram-nova-3,Sports score,kokoro-82m,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Sports score,orpheus-3b,40,0.6250,0.4750,0.7750
+deepgram-nova-3,Sports score,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Sports score,qwen3-tts,40,0.7750,0.6500,0.9000
+deepgram-nova-3,Stock Ticker,chatterbox,40,0.8250,0.7000,0.9250
+deepgram-nova-3,Stock Ticker,chatterbox-multilingual,40,0.8250,0.7000,0.9250
+deepgram-nova-3,Stock Ticker,chatterbox-turbo,40,0.8250,0.7000,0.9250
+deepgram-nova-3,Stock Ticker,kokoro-82m,40,1.0000,1.0000,1.0000
+deepgram-nova-3,Stock Ticker,orpheus-3b,40,0.8500,0.7500,0.9500
+deepgram-nova-3,Stock Ticker,parler-tts,40,0.0250,0.0000,0.0750
+deepgram-nova-3,Stock Ticker,qwen3-tts,40,0.7750,0.6500,0.9000
+deepgram-nova-3,Time,chatterbox,40,0.4750,0.3250,0.6250
+deepgram-nova-3,Time,chatterbox-multilingual,40,0.7000,0.5500,0.8500
+deepgram-nova-3,Time,chatterbox-turbo,40,0.6750,0.5250,0.8250
+deepgram-nova-3,Time,kokoro-82m,40,1.0000,1.0000,1.0000
+deepgram-nova-3,Time,orpheus-3b,40,0.9250,0.8500,1.0000
+deepgram-nova-3,Time,parler-tts,39,0.0000,0.0000,0.0000
+deepgram-nova-3,Time,qwen3-tts,40,0.8750,0.7750,0.9750
+deepgram-nova-3,URL or Email,chatterbox,40,0.0250,0.0000,0.0750
+deepgram-nova-3,URL or Email,chatterbox-multilingual,40,0.0000,0.0000,0.0000
+deepgram-nova-3,URL or Email,chatterbox-turbo,40,0.2000,0.0750,0.3250
+deepgram-nova-3,URL or Email,kokoro-82m,40,0.0250,0.0000,0.0750
+deepgram-nova-3,URL or Email,orpheus-3b,40,0.1250,0.0250,0.2500
+deepgram-nova-3,URL or Email,parler-tts,38,0.0000,0.0000,0.0000
+deepgram-nova-3,URL or Email,qwen3-tts,40,0.0250,0.0000,0.0750
+deepgram-nova-3,Unit,chatterbox,40,0.6500,0.5000,0.8000
+deepgram-nova-3,Unit,chatterbox-multilingual,40,0.3750,0.2250,0.5250
+deepgram-nova-3,Unit,chatterbox-turbo,40,0.7000,0.5500,0.8500
+deepgram-nova-3,Unit,kokoro-82m,40,0.9250,0.8500,1.0000
+deepgram-nova-3,Unit,orpheus-3b,40,0.6750,0.5250,0.8250
+deepgram-nova-3,Unit,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Unit,qwen3-tts,40,0.7500,0.6000,0.8750
+deepgram-nova-3,Vehicle or Product Code,chatterbox,40,0.8750,0.7750,0.9750
+deepgram-nova-3,Vehicle or Product Code,chatterbox-multilingual,40,0.2250,0.1000,0.3500
+deepgram-nova-3,Vehicle or Product Code,chatterbox-turbo,40,0.7500,0.6000,0.8750
+deepgram-nova-3,Vehicle or Product Code,kokoro-82m,40,0.9000,0.8000,0.9750
+deepgram-nova-3,Vehicle or Product Code,orpheus-3b,40,0.6750,0.5250,0.8250
+deepgram-nova-3,Vehicle or Product Code,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Vehicle or Product Code,qwen3-tts,40,0.4750,0.3250,0.6250
+deepgram-nova-3,Version Numbers,chatterbox,40,0.1250,0.0250,0.2500
+deepgram-nova-3,Version Numbers,chatterbox-multilingual,40,0.1750,0.0750,0.3000
+deepgram-nova-3,Version Numbers,chatterbox-turbo,40,0.3000,0.1500,0.4500
+deepgram-nova-3,Version Numbers,kokoro-82m,40,0.2750,0.1500,0.4250
+deepgram-nova-3,Version Numbers,orpheus-3b,40,0.2750,0.1500,0.4250
+deepgram-nova-3,Version Numbers,parler-tts,40,0.0000,0.0000,0.0000
+deepgram-nova-3,Version Numbers,qwen3-tts,40,0.3000,0.1500,0.4500

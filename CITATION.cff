@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: Dograh Experiments
+message: >-
+  If you use these experiments, their data or their results, please cite
+  the repository and the individual experiment you used.
+type: dataset
+authors:
+  - name: Dograh
+    website: https://dograh.com
+repository-code: https://github.com/RuchiketJadhav/experiments
+url: https://dograh.com/hub/experiments
+abstract: >-
+  Voice AI experiments from the Dograh team, published with the data,
+  the generator and the results together so every number can be checked.
+  Each experiment ships a free verification step that recomputes the
+  published figures from the published data.
+license: Apache-2.0
+license-url: https://github.com/RuchiketJadhav/experiments/blob/main/LICENSE
+date-released: "2026-09-30"
+keywords:
+  - voice-ai
+  - text-to-speech
+  - speech-recognition
+  - benchmark
+  - text-normalization
+  - reproducibility
+references:
+  - type: data
+    title: >-
+      TTS verbalization benchmark: do open text-to-speech models say dates,
+      prices and phone numbers correctly?
+    authors:
+      - name: Dograh
+    url: https://dograh.com/hub/experiments/tts-verbalization-benchmark
+    repository-code: https://github.com/RuchiketJadhav/experiments/tree/main/benchmarks/tts-verbalization
+    license: CC-BY-4.0
+    date-released: "2026-09-30"
+    abstract: >-
+      Seven open text-to-speech models over 1,080 generated sentences in 27
+      categories, scored by two independent speech recognizers. Data,
+      generator and results published together.

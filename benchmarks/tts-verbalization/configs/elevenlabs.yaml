@@ -1,0 +1,62 @@
+# ElevenLabs over the same PolyNorm data.
+#
+#   1. fill in secrets.env
+#   2. set -a; . ./secrets.env; set +a; \
+#        python run.py --config configs/elevenlabs.yaml --limit 10 --out runs/eleven
+#   3. python score.py --run runs/eleven
+#
+# Verified against https://elevenlabs.io/docs/api-reference/text-to-speech/convert
+#
+# Three things the docs corrected in my first draft:
+#
+#  * output_format is a QUERY PARAMETER, not a body field. Left unset it
+#    defaults to mp3_44100_128.
+#  * PCM/WAV at 44.1 kHz needs a Pro tier, and the pcm_* formats return RAW
+#    headerless PCM that soundfile cannot open. So we ask for mp3_22050_32:
+#    readable by libsndfile, small, and the closest rate to the ASR's 16 kHz,
+#    which minimises how far the linear-interpolation resampler has to move it.
+#  * apply_text_normalization is the parameter that matters most here -- see
+#    below.
+#
+# WHAT apply_text_normalization DOES TO THIS BENCHMARK
+# ElevenLabs ships its own text normalizer, so this flag decides what you are
+# actually measuring:
+#   auto (default) - the system decides. Closest to out-of-the-box behaviour,
+#                    and the fairest comparison against the pre-synthesized
+#                    sets (Kokoro, Fish, NVIDIA, smallest), none of which had
+#                    a normalizer switch.
+#   on             - always normalize. Measures their normalizer at its best.
+#   off            - measures the raw model with no front-end. This is the
+#                    closest analogue to what Async's benchmark tested.
+# Changing it changes the result, so it is set explicitly rather than left to
+# the default, and it is recorded in the adapter revision below.
+#
+# Note on seeds: unlike most hosted TTS APIs, ElevenLabs DOES accept a `seed`
+# (best-effort determinism, not guaranteed). Repeat samples here are still
+# recorded as sample variance, not as reproducible seeds.
+
+dataset:
+  type: polynorm
+
+asr:
+  - type: wav2vec2
+    model: facebook/wav2vec2-base-960h
+    device: cpu
+
+tts:
+  - id: elevenlabs-multilingual-v2
+    type: http
+    # The voice MUST appear here. The audio cache keys on id+revision+text, and
+    # the voice lives in the endpoint URL -- leave it out and switching voices
+    # silently reuses the previous voice's cached audio.
+    revision: "eleven_multilingual_v2/voice=${ELEVENLABS_VOICE_ID}/norm=auto/mp3_22050_32"
+    endpoint: "https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}?output_format=mp3_22050_32"
+    headers:
+      xi-api-key: "${ELEVENLABS_API_KEY}"
+      Content-Type: application/json
+    body:
+      text: "{{text}}"
+      model_id: eleven_multilingual_v2
+      apply_text_normalization: auto
+    response: audio
+    timeout_s: 60

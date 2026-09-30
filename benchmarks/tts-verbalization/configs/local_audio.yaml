@@ -1,0 +1,108 @@
+# Five pre-synthesized PolyNorm runs already on disk.
+#
+# manifest and audio_root are named separately and deliberately: in
+# polynorm_tts/, manifest.csv describes the FLUX run while af_heart/ holds
+# KOKORO's audio. Pairing by folder name would mislabel every Kokoro number.
+
+dataset:
+  type: polynorm
+
+# THREE RECOGNIZERS, and the reason is not redundancy.
+#
+# arXiv:2607.08256 shows TTS rankings REVERSE across ASR families, so one
+# recognizer cannot settle a ranking. A 40-clip listening audit against human
+# verdicts measured how badly: wav2vec2 agreed with a human ear on 48% of
+# clips, local whisper-small.en on 75%, with zero false positives either way.
+#
+# The two API lineages are deliberately disjoint families AND opposite
+# normalization behaviours:
+#
+#   deepgram nova-3  proprietary, non-Whisper. smart_format/numerals/punctuate
+#                    are switched OFF, so it writes words not digits and cannot
+#                    "repair" a bad verbalization into a passing one.
+#   openai whisper-1 classic Whisper. Rewrites speech into written form, which
+#                    canonicalize.py handles. Same FAMILY as the local
+#                    whisper-small.en measured at 75%, but a different and
+#                    larger model, so that 75% is a prior, NOT a measurement of
+#                    this one. Every recognizer is measured on the same 40
+#                    human-labelled clips before its numbers are used.
+#
+# wav2vec2 stays as a free local baseline: its transcripts are cached, and it
+# is the evidence for why recognizer choice matters at all.
+#
+# Score each SEPARATELY with score.py --asr. Averaging lineages is not a number,
+# and score.py refuses to do it.
+asr:
+  - type: wav2vec2
+    model: facebook/wav2vec2-base-960h   # CTC baseline, cached, no key needed
+
+  - id: deepgram-nova-3
+    type: http
+    enabled: false                       # flip on once DEEPGRAM_API_KEY is set
+    upload: raw
+    normalizes_output: false             # formatting switched off in the query
+    revision: nova-3/no-format
+    endpoint: "https://api.deepgram.com/v1/listen?model=nova-3&smart_format=false&numerals=false&punctuate=false"
+    headers:
+      Authorization: "Token ${DEEPGRAM_API_KEY}"
+      Content-Type: audio/wav
+    json_path: results.channels.0.alternatives.0.transcript
+
+  - id: openai-whisper-1
+    type: http
+    enabled: false                       # flip on once OPENAI_API_KEY is set
+    upload: multipart
+    normalizes_output: true              # no ITN switch exists; validate instead
+    revision: whisper-1
+    endpoint: "https://api.openai.com/v1/audio/transcriptions"
+    headers:
+      Authorization: "Bearer ${OPENAI_API_KEY}"
+    form:
+      model: whisper-1
+      response_format: json
+    json_path: text
+
+tts:
+  - id: kokoro-82m
+    type: manifest
+    revision: Kokoro-82M/af_heart
+    manifest: /path/to/your/audio/PolyNorm_TTS_Rating_Webpage/polynorm_tts/manifest.csv
+    audio_root: /path/to/your/audio/polynorm_tts
+
+  - id: fish-s2.1-pro
+    type: manifest
+    revision: s2.1-pro-free/af_heart
+    manifest: /path/to/your/audio/fish_tts/manifest.csv
+    audio_root: /path/to/your/audio/fish_tts
+
+  # Dropped from the comparison: lightning_v3.1 is a closed hosted model and
+  # this benchmark now covers open models only. The audio stays on disk and the
+  # records stay in results.jsonl, so re-enabling it re-scores from cache.
+  - id: smallest-lightning-v3.1
+    type: manifest
+    enabled: false
+    revision: lightning_v3.1/sophia
+    manifest: /path/to/your/audio/polynorm_tts_smallest/manifest.csv
+    audio_root: /path/to/your/audio/polynorm_tts_smallest
+
+  - id: nvidia-chatterbox
+    type: manifest
+    revision: chatterbox/Multilingual.en-US.Male
+    manifest: /path/to/your/audio/polynorm_tts_NVIDIA/manifest_chatterbox_Chatterbox-Multilingual.en-US.Male.csv
+    audio_root: /path/to/your/audio/polynorm_tts_NVIDIA
+
+  - id: nvidia-magpie
+    type: manifest
+    revision: magpie/Multilingual.EN-US.Aria
+    manifest: /path/to/your/audio/polynorm_tts_NVIDIA/manifest_magpie_Magpie-Multilingual.EN-US.Aria.csv
+    audio_root: /path/to/your/audio/polynorm_tts_NVIDIA
+
+  # Only 77/540 generated, covering 6 of 27 categories (the easy ones) after
+  # OpenRouter 429s killed the run at ~index 120. Scoring it beside the others
+  # compares it on a strictly easier subset. Enable with --include-partial.
+  - id: deepgram-flux
+    type: manifest
+    enabled: false
+    revision: deepgram/flux-tts:free/flux-alexis-en
+    manifest: /path/to/your/audio/polynorm_tts/manifest.csv
+    audio_root: /path/to/your/audio/polynorm_tts

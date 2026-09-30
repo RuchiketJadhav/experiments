@@ -1,0 +1,88 @@
+# Calling a live TTS API over the SAME PolyNorm data.
+#
+#   python run.py --config configs/api_example.yaml --limit 10 --out runs/api
+#   python score.py --run runs/api
+#
+# Nothing else changes: same 540-item dataset, same wav2vec2 evaluator, same
+# canonicalizer and target scoring, same content-hash cache. Only the source of
+# audio differs, so results are directly comparable to the pre-synthesized runs.
+#
+# Secrets come from the environment via ${VAR}; never paste a key into this
+# file. Set them first, e.g. PowerShell:  $env:CARTESIA_API_KEY = "..."
+#
+# The generic adapter needs four things:
+#   endpoint  - the URL
+#   headers   - auth and content type
+#   body      - the JSON payload, with {{text}} where the sentence goes
+#   response  - "audio" for raw bytes, or {json_path, encoding} to dig out base64
+#
+# Ask for 16 kHz where the provider allows it: the ASR resamples to 16 kHz and
+# this box has no proper resampler, so requesting it avoids the conversion.
+#
+# NOTE: this adapter takes an arbitrary URL. Fine for a local CLI run. Do not
+# expose it as a hosted service without a scheme/host allowlist -- it would be
+# an SSRF primitive.
+
+dataset:
+  type: polynorm
+
+asr:
+  - type: wav2vec2
+    model: facebook/wav2vec2-base-960h
+    device: cpu
+
+tts:
+  - id: cartesia-sonic-3.6
+    type: http
+    revision: sonic-3.6
+    endpoint: https://api.cartesia.ai/tts/bytes
+    headers:
+      X-API-Key: "${CARTESIA_API_KEY}"
+      Cartesia-Version: "2024-06-10"
+      Content-Type: application/json
+    body:
+      model_id: sonic-3.6
+      transcript: "{{text}}"
+      # Always QUOTE a ${VAR}: bare ${...} opens a YAML flow mapping and the
+      # file fails to parse.
+      voice:
+        mode: id
+        id: "${CARTESIA_VOICE_ID}"
+      output_format:
+        container: wav
+        encoding: pcm_s16le
+        sample_rate: 16000
+    response: audio
+    timeout_s: 60
+
+  # ElevenLabs returns raw audio bytes on the body too. The voice id is part of
+  # the path, so it is baked into the endpoint rather than the payload.
+  - id: elevenlabs-multilingual-v2
+    type: http
+    enabled: false
+    revision: eleven_multilingual_v2
+    endpoint: "https://api.elevenlabs.io/v1/text-to-speech/${ELEVENLABS_VOICE_ID}"
+    headers:
+      xi-api-key: "${ELEVENLABS_API_KEY}"
+      Content-Type: application/json
+    body:
+      text: "{{text}}"
+      model_id: eleven_multilingual_v2
+    response: audio
+
+  # A provider that wraps the audio in JSON as base64 instead of returning
+  # bytes: point json_path at the field.
+  - id: some-json-provider
+    type: http
+    enabled: false
+    revision: v1
+    endpoint: https://api.example.com/v1/speech
+    headers:
+      Authorization: "Bearer ${EXAMPLE_API_KEY}"
+    body:
+      input: "{{text}}"
+      format: wav
+      sample_rate: 16000
+    response:
+      json_path: audio.data
+      encoding: base64

@@ -1,0 +1,238 @@
+# Synthetic corpus spec -- en-US.
+#
+# This file is the LANGUAGE seam. Everything locale-specific that a human
+# would have to rewrite for another language lives here: the carrier
+# sentences and the per-category item count. The value generators in
+# gen_corpus.py produce the written/spoken pair for the slot; the carrier
+# wraps it in an ordinary sentence.
+#
+# Carriers must be FULL SENTENCES. screen.py rejects audio longer than
+# 0.60 s per character of the WRITTEN text, so a bare fragment like
+# "$1,234,567.89" (13 chars -> a 7.8 s ceiling) would get correct audio
+# thrown out in exactly the high-expansion categories this benchmark
+# exists to measure. Every carrier carries enough characters to keep that
+# bound loose.
+#
+# {x} is the slot. It appears once per carrier, in both the written and the
+# spoken rendering of the sentence.
+
+locale: en-US
+version: 1
+default_count: 40
+
+categories:
+  Date:
+    carriers:
+      - "The event is scheduled for {x} at the main hall."
+      - "Her birthday falls on {x} this year."
+      - "They signed the agreement on {x} in Boston."
+      - "The museum reopened on {x} after the renovation."
+      - "Construction is due to finish on {x}."
+
+  Time:
+    carriers:
+      - "The train to the coast departs at {x} every weekday."
+      - "We should meet in the lobby at {x} tomorrow."
+      - "Breakfast is served at {x} in the dining room."
+      - "The broadcast begins at {x} on channel four."
+      - "Her flight is expected to land at {x}."
+
+  Cardinal:
+    carriers:
+      - "The stadium seats {x} people on a full night."
+      - "The survey collected {x} responses in total."
+      - "The library holds {x} volumes in its archive."
+      - "Roughly {x} visitors came through the gates."
+      - "The factory produced {x} units last quarter."
+
+  Ordinal:
+    carriers:
+      - "She finished {x} in the regional championship."
+      - "This is the {x} attempt at the same problem."
+      - "The office is on the {x} floor of the tower."
+      - "He was the {x} person to sign the register."
+      - "They celebrated their {x} anniversary quietly."
+
+  Decimal:
+    carriers:
+      - "The sensor reported a reading of {x} at noon."
+      - "The average came out to {x} across the sample."
+      - "The gauge settled at {x} after an hour."
+      - "The measurement was recorded as {x} in the log."
+      - "The final ratio works out to {x} exactly."
+
+  Fractions:
+    carriers:
+      - "Add {x} of a cup of flour to the mixture."
+      - "About {x} of the committee voted in favour."
+      - "The board is {x} of an inch thick."
+      - "She finished {x} of the course before resting."
+      - "Only {x} of the seats were sold in advance."
+
+  Roman Numeral:
+    carriers:
+      - "Chapter {x} covers the early period in detail."
+      - "Super Bowl {x} drew a record television audience."
+      - "The inscription on the cornerstone reads {x}."
+      - "Volume {x} is missing from the shelf."
+      - "Part {x} of the series was published last spring."
+
+  Phone Number:
+    carriers:
+      - "You can reach the front desk at {x} during the day."
+      - "Her office number is {x} if you need to call."
+      - "Leave a message at {x} and someone will call back."
+      - "The support line is {x} for urgent problems."
+      - "Call {x} to confirm the appointment."
+
+  Currency:
+    carriers:
+      - "The final invoice came to {x} including tax."
+      - "They raised {x} for the local hospital fund."
+      - "The repair will cost {x} according to the estimate."
+      - "The painting sold for {x} at the auction house."
+      - "She paid {x} for the second hand bicycle."
+
+  Unit:
+    carriers:
+      - "The package weighs {x} on the postal scale."
+      - "The trail runs {x} through the forest."
+      - "The recipe calls for {x} of cold water."
+      - "The prescription is {x} taken twice daily."
+      - "The ceiling clears {x} above the floor."
+
+  Sports score:
+    carriers:
+      - "The final score was {x} after extra time."
+      - "The match ended {x} in front of a full crowd."
+      - "They won {x} in the opening round."
+      - "The game finished {x} despite the weather."
+      - "The visitors lost {x} on Saturday afternoon."
+
+  Mathematical Expression:
+    carriers:
+      - "The worksheet asks the student to show that {x}."
+      - "On the whiteboard she wrote {x} and underlined it."
+      - "The first line of the proof states {x}."
+      - "Check that {x} before moving to the next step."
+      - "The exam answer key gives {x} for question four."
+
+  URL or Email:
+    carriers:
+      - "You can find the documentation at {x} online."
+      - "Send the completed form to {x} before Friday."
+      - "The registration page is {x} for new members."
+      - "Write to {x} if the problem happens again."
+      - "The archive is hosted at {x} for now."
+
+  Hashtag or Mention:
+    carriers:
+      - "The campaign is using {x} across every platform."
+      - "Follow {x} for updates during the conference."
+      - "She tagged {x} in the photo from the summit."
+      - "The trending topic this week is {x} again."
+      - "Credit for the design goes to {x} entirely."
+
+  Abbreviation:
+    carriers:
+      - "{x} Whitfield will see you in the second room."
+      - "The lecture is given by {x} Harrington on Tuesdays."
+      - "The parcel is addressed to {x} Ramsey in accounting."
+      - "Please direct your question to {x} Okafor after class."
+      - "The letter was signed by {x} Delacroix in person."
+
+  Initialism or Acronym:
+    carriers:
+      - "The report was prepared by the {x} last winter."
+      - "She spent four years working at the {x} in Chicago."
+      - "The {x} published new guidance on the subject."
+      - "Funding for the project came from the {x} directly."
+      - "The {x} confirmed the findings in a short statement."
+
+  ISBN:
+    carriers:
+      - "The number printed on the back cover is {x} exactly."
+      - "Order the textbook using {x} from the supplier."
+      - "The catalogue lists the title under {x} instead."
+      - "Quote {x} when you contact the publisher directly."
+      - "The second reprint carries {x} on the copyright page."
+
+  Chemical Formula:
+    carriers:
+      - "The compound is written as {x} in the textbook."
+      - "The sample turned out to be {x} after analysis."
+      - "The label on the bottle simply says {x} in pencil."
+      - "The reaction produces {x} as a by product."
+      - "The formula {x} appears in the second table."
+
+  Legal Reference:
+    carriers:
+      - "The claim was filed under {x} in federal court."
+      - "See {x} of the contract for the exact wording."
+      - "The judge cited {x} in the written opinion."
+      - "Refer to {x} before signing the lease agreement."
+      - "The dispute turns on {x} more than anything else."
+
+  Vehicle or Product Code:
+    carriers:
+      - "The model number stamped on the base is {x} here."
+      - "The technician ordered replacement part {x} yesterday."
+      - "The identification number on the plate reads {x} clearly."
+      - "Look for {x} printed underneath the plastic casing."
+      - "The warranty card lists the unit as {x} instead."
+
+  Geographic Coordinates:
+    carriers:
+      - "The station sits at {x} on the survey map."
+      - "The wreck was located at {x} by the search team."
+      - "Set the marker to {x} before you leave the dock."
+      - "The reading from the handset was {x} at dawn."
+      - "The coordinates in the logbook are {x} precisely."
+
+  Version Numbers:
+    carriers:
+      - "The installer will update the client to {x} tonight."
+      - "This bug was fixed in {x} of the shared library."
+      - "The server is still running {x} in production."
+      - "Please upgrade to {x} before reporting the issue."
+      - "The release notes for {x} mention the change."
+
+  License Plate or Serial Numbers:
+    carriers:
+      - "The license plate on the van reads {x} clearly."
+      - "The serial number engraved on the frame is {x} here."
+      - "Warranty claims require the code {x} from the label."
+      - "The inventory sheet records the unit as {x} instead."
+      - "The officer wrote down {x} at the scene."
+
+  Musical Notation:
+    carriers:
+      - "The second movement is written in {x} throughout."
+      - "The guitarist opens the piece with {x} every night."
+      - "Transpose the melody into {x} before the rehearsal."
+      - "The score is marked {x} at the top of the page."
+      - "She hummed {x} quietly while tuning the instrument."
+
+  Stock Ticker:
+    carriers:
+      - "Shares of {x} closed higher on the exchange today."
+      - "The fund holds a large position in {x} right now."
+      - "Analysts downgraded {x} after the earnings call."
+      - "He bought {x} in the first week of the quarter."
+      - "Trading in {x} was halted briefly this morning."
+
+  Biological Classification:
+    carriers:
+      - "The sample was identified as {x} by the laboratory."
+      - "An outbreak of {x} was reported in three counties."
+      - "The culture tested positive for {x} on Thursday."
+      - "Researchers sequenced {x} earlier this year."
+      - "The specimen jar is labelled {x} in faded ink."
+
+  Address:
+    carriers:
+      - "The office has moved to {x} since the merger."
+      - "Deliveries should be sent to {x} during the week."
+      - "The property at {x} has been empty for months."
+      - "She grew up in a small house at {x} near the river."
+      - "The new clinic opened at {x} last autumn."

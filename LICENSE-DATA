@@ -1,0 +1,39 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026, Dograh
+
+This licence covers the DATA and RESULTS in this repository, meaning everything
+under:
+
+    benchmarks/*/data/
+    benchmarks/*/results/
+
+Code is licensed separately under BSD-2-Clause; see LICENSE.
+
+You are free to:
+
+  Share   - copy and redistribute the material in any medium or format
+  Adapt   - remix, transform, and build upon the material
+            for any purpose, even commercially.
+
+Under the following terms:
+
+  Attribution - You must give appropriate credit to Dograh Research, provide a
+  link to this repository and to the licence, and indicate if changes were
+  made. You may do so in any reasonable manner, but not in any way that
+  suggests we endorse you or your use.
+
+  No additional restrictions - You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the licence
+  permits.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+A NOTE ON THIRD-PARTY DATA
+--------------------------
+No third-party dataset is redistributed in this repository. Where a study's
+code can download one at run time, that code ships and the dataset does not.
+In particular, benchmarks/tts-verbalization contains a loader and a config that
+reference Apple's PolyNorm-Bench (CC BY-NC-ND 4.0). That dataset is downloaded
+by the user at run time if they choose to use it. No PolyNorm row, transcript
+or result appears anywhere in this repository.

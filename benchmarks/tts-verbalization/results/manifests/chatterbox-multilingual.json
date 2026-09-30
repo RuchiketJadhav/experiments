@@ -1,0 +1,72 @@
+{
+  "created": "2026-09-29T09:46:43Z",
+  "python": "3.12.3",
+  "platform": "Linux-6.17.0-1017-aws-x86_64-with-glibc2.39",
+  "items": 1080,
+  "categories": [
+    "Abbreviation",
+    "Address",
+    "Biological Classification",
+    "Cardinal",
+    "Chemical Formula",
+    "Currency",
+    "Date",
+    "Decimal",
+    "Fractions",
+    "Geographic Coordinates",
+    "Hashtag or Mention",
+    "ISBN",
+    "Initialism or Acronym",
+    "Legal Reference",
+    "License Plate or Serial Numbers",
+    "Mathematical Expression",
+    "Musical Notation",
+    "Ordinal",
+    "Phone Number",
+    "Roman Numeral",
+    "Sports score",
+    "Stock Ticker",
+    "Time",
+    "URL or Email",
+    "Unit",
+    "Vehicle or Product Code",
+    "Version Numbers"
+  ],
+  "sources": [
+    "synthetic-en-US"
+  ],
+  "dataset_sha256": "11b71377609878e99fd45939530c7de532619c82a3885abcc11d8b3d6c6757a0",
+  "samples_per_item": 1,
+  "tts": [
+    {
+      "id": "chatterbox-multilingual",
+      "revision": "chatterbox-multilingual@9cfba4c2",
+      "timing_s": null
+    }
+  ],
+  "asr": [
+    {
+      "id": "openai-whisper-1",
+      "revision": "whisper-1",
+      "normalizes_output": true
+    },
+    {
+      "id": "deepgram-nova-3",
+      "revision": "nova-3/no-format",
+      "normalizes_output": false
+    }
+  ],
+  "counts": {
+    "written": 12,
+    "skipped_done": 2148,
+    "synth_failed": 0,
+    "not_generated": 0,
+    "screened_audio": 0,
+    "no_target": 0,
+    "screened_transcript": 0,
+    "asr_failed": 2,
+    "cache_hits": 12,
+    "elapsed_s": 286.3
+  },
+  "note": "samples are repeat draws, not seeds: hosted TTS APIs expose no seed parameter, so repeats measure variance and do not make a run reproducible"
+}
