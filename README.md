@@ -23,7 +23,7 @@ Every experiment is built so an AI agent can take it from a clone to our numbers
 with no other context. Open your agent (Claude Code or Cursor) and paste this,
 swapping in the experiment you want:
 
-> Reproduce Dograh's TTS verbalization experiment: run `git clone --depth 1 https://github.com/RuchiketJadhav/experiments.git && cd experiments/benchmarks/tts-verbalization`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
+> Reproduce Dograh's TTS verbalization experiment: run `git clone --depth 1 https://github.com/dograh-hq/experiments.git && cd experiments/benchmarks/tts-verbalization`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
 
 Each experiment folder holds:
 

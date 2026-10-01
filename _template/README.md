@@ -6,7 +6,7 @@ makes this page trustworthy: every number here is reproduced from the data in
 
 **Reproduce this study.** Paste into Claude Code:
 
-> Reproduce Dograh's <experiment> experiment: run `git clone --depth 1 https://github.com/RuchiketJadhav/experiments.git && cd experiments/benchmarks/<experiment>`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
+> Reproduce Dograh's <experiment> experiment: run `git clone --depth 1 https://github.com/dograh-hq/experiments.git && cd experiments/benchmarks/<experiment>`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
 
 ---
 

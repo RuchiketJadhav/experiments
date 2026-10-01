@@ -26,7 +26,7 @@ out of 279. The best date score is 0.23.
 
 **Reproduce it.** Open your AI agent (Claude Code or Cursor) and paste this:
 
-> Reproduce Dograh's TTS verbalization experiment: run `git clone --depth 1 https://github.com/RuchiketJadhav/experiments.git && cd experiments/benchmarks/tts-verbalization`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
+> Reproduce Dograh's TTS verbalization experiment: run `git clone --depth 1 https://github.com/dograh-hq/experiments.git && cd experiments/benchmarks/tts-verbalization`, then follow AGENTS.md. Start with the free verification, and ask me before spending anything.
 
 Tier 1 is free, needs no API keys, and takes about a minute. It recomputes every
 number on this page from `results/records.jsonl.gz` and fails if any of them has
