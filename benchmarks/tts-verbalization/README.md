@@ -311,6 +311,11 @@ data in this repo, not typed in by hand.
 
 ### Tier 2 — Smoke (paid, needs API keys)
 
+You use your own Replicate, OpenAI and Deepgram keys, billed to your own
+accounts. Copy `.env.example` to `.env` and fill it in yourself; no key in
+this repository, and nothing here can spend on our behalf. `AGENTS.md`
+always asks before it spends anything.
+
 About 20 items sampled across all categories, through the real models and both
 recognizers. Reports actual spend and time, then projects the full run from them.
 

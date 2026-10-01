@@ -67,6 +67,19 @@ generated and easy to forget.
 **Never commit audio.** It is large and it is usually the thing that carries a
 licence.
 
+**Run the structural check.** From the repository root:
+
+```bash
+python tools/check-experiment.py
+```
+
+It asserts every experiment carries the files its paste prompt promises:
+`AGENTS.md`, `verify.py`, `METHODOLOGY.md`, `.env.example` and the rest.
+It also checks that the prompt's path matches where the experiment
+actually lives, and that `.env.example` carries names and no values.
+A prompt pointing at a folder that moved is the easiest mistake to make
+here and the hardest for a reader to diagnose.
+
 **Verify from a clean clone.** Clone your own repo into a temp directory and run
 the tests and `verify.py` there. That is what a stranger gets, and it is the only
 way to catch a file you forgot to commit.

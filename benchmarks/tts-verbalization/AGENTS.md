@@ -68,12 +68,34 @@ whether they want to go further before describing Tiers 2 or 3 in any detail.
 
 ## Step 4: keys, only if they want a paid tier
 
+**These are the reader's own API keys, paying from the reader's own accounts.**
+Nothing in this repository carries a key, and nothing here can call a provider on
+our behalf. If a key is missing the run fails at startup rather than part way
+through, because `expand_env()` in `adapters/httputil.py` raises on an unset
+variable instead of sending an empty header.
+
 ```bash
 cp .env.example .env
 ```
 
-Tell the user to open `.env` and fill in the three values themselves. Then verify
-only presence:
+Tell the user to open `.env` and fill in the three values **themselves**. Never ask
+them to paste a key into the chat, and never print one back.
+
+Then load the file into the environment. This has to happen BEFORE the check below,
+or the check reports NOT SET for keys that are perfectly well filled in:
+
+```bash
+set -a; . ./.env; set +a          # bash / zsh / git-bash
+```
+
+```powershell
+Get-Content .env | Where-Object { $_ -match '^\s*[^#].*=' } | ForEach-Object {
+    $name, $value = $_ -split '=', 2
+    [Environment]::SetEnvironmentVariable($name.Trim(), $value.Trim(), 'Process')
+}
+```
+
+Now verify presence only, never values:
 
 ```bash
 python -c "
@@ -83,10 +105,8 @@ for k in ('REPLICATE_API_TOKEN','OPENAI_API_KEY','DEEPGRAM_API_KEY'):
 "
 ```
 
-Load them into the environment before running anything:
-`set -a; . ./.env; set +a` (bash) or the PowerShell equivalent.
-
-Never echo a value. If one is missing, say which, and stop.
+All three should print `set`. If any says `NOT SET`, say which one, and stop. Do not
+guess at a value and do not continue to a paid tier with a missing key.
 
 ## Step 5: Tier 2 — Smoke (paid; ask first)
 
